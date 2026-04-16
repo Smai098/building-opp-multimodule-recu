@@ -7,7 +7,7 @@ pipeline {
     }
 
     environment {
-        APP_NAME   = 'mi-app-java' // cambia este nombre en cada proyecto
+        APP_NAME   = 'building-multimodule-recu' // cambia este nombre en cada proyecto
         MAVEN_OPTS = '-Xmx1024m -XX:MaxMetaspaceSize=512m'
     }
 
@@ -72,7 +72,7 @@ pipeline {
      }
 
      environment {
-         APP_NAME   = 'mi-app-java' // cambia este nombre en cada proyecto
+         APP_NAME   = 'building-multimodule-recu' // cambia este nombre en cada proyecto
          MAVEN_OPTS = '-Xmx1024m -XX:MaxMetaspaceSize=512m'
      }
 
